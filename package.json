@@ -10,7 +10,8 @@
   "scripts": {
     "start": "node server.js",
     "server": "nodemon server.js",
-    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false YARN_PRODUCTION=false yarn add --prefix client"
+    "build": "ng build",
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false YARN_PRODUCTION=false yarn add --prefix client yarn run build --prefix build"
   },
   "author": "kazuya",
   "license": "MIT",
