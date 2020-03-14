@@ -1,0 +1,47 @@
+.input-field {
+  padding: 1em 2em;
+  width: 90% !important;
+  margin-bottom: 1.3em;
+  font-family: inherit;
+  border: 0;
+  border-bottom: 2px solid #243b55;
+  opacity: 0.7;
+  outline: 0;
+  font-size: 1.3rem;
+  color: white;
+  padding: 7px 0;
+  background: transparent;
+  transition: border-color 0.2s;
+}
+
+.input-field::placeholder {
+  font-size: 0.9em;
+  color: white;
+}
+
+.error {
+  color: red;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+textarea {
+  padding: 1em 1.4em !important;
+  width: 90% !important;
+  margin-bottom: 1.3em;
+  font-family: inherit;
+  border: 0;
+  border: 2px solid #243b55;
+  opacity: 0.7;
+  outline: 0;
+  font-size: 1.3rem;
+  color: white;
+  padding: 7px 0;
+  background: transparent;
+  transition: border-color 0.2s;
+}
+
+textarea::placeholder {
+  font-size: 0.9em;
+  color: white;
+}

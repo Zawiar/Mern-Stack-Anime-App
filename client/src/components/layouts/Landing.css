@@ -1,0 +1,40 @@
+.wrap {
+  background-image: linear-gradient(to top, #02aab0, #00cdac);
+}
+.image {
+  max-width: 60vh;
+  max-height: auto;
+  margin-bottom: 1.16em;
+}
+
+.content {
+  text-align: center;
+}
+
+.content h1 {
+  text-transform: uppercase;
+  font-size: 2em;
+  margin-top: 0.4em;
+  margin-bottom: 1.2em;
+}
+
+.btn-reg {
+  padding: 15px 40px;
+  background-color: #243b55;
+  color: white;
+  border-radius: 30px;
+  text-decoration: none;
+  border: none;
+}
+
+.btn-reg:hover {
+  color: #243b55;
+  background: white;
+  transition: 0.2s ease-in-out;
+}
+
+@media (max-width: 768px) {
+  .content {
+    margin-bottom: 3em;
+  }
+}

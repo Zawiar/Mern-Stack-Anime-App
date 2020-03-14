@@ -1,0 +1,11 @@
+footer {
+  background-image: linear-gradient(to right, #141e30, #243b55);
+  height: 7vh;
+}
+
+footer p {
+  text-align: center;
+  padding-top: 10px;
+  color: white;
+  font-size: 13px;
+}

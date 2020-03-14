@@ -1,0 +1,10 @@
+export const GET_ERRORS = "GET_ERRORS";
+export const SET_USER = "SET_USER";
+export const CLEAR_ERRORS = "CLEAR_ERRORS";
+export const GET_PROFILE = "GET_PROFILE";
+export const GET_CURRENT_PROFILE = "GET_CURRENT_PROFILE";
+export const CLEAR_PROFILE = "CLEAR_PROFILE";
+export const LOADING = "LOADING";
+export const LOADINGFALSE = "LOADINGFALSE";
+export const GET_PROFILES = "GET_PROFILES";
+export const CLEAR_CURRENT_USER = "CLEAR_CURRENT_USER";
