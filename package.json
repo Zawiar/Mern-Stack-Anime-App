@@ -8,9 +8,10 @@
   "description": "A full stack anime project",
   "main": "server.js",
   "scripts": {
+    "build": "cd client && yarn run build",
+    "install": "cd client && yarn install",
     "start": "node server.js",
     "server": "nodemon server.js",
-    "build": "ng build",
     "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false YARN_PRODUCTION=false yarn add --prefix client yarn run build --prefix build"
   },
   "author": "kazuya",
